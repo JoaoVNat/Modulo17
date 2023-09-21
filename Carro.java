@@ -8,54 +8,16 @@ public abstract class Carro {
     private String automático;
     private String manual;
 
-    public Carro() {
-    }
-
-    public String getEletrico() {
-        return this.eletrico;
-    }
-
-    public void setEletrico() {
-        this.eletrico = this.eletrico;
-    }
-
-    public String getMarca() {
-        return this.marca;
-    }
-
-    public void setMarca() {
-        this.marca = this.marca;
-    }
-
-    public String getMotor() {
-        return this.motor;
-    }
-
-    public void setMotor() {
-        this.motor = this.motor;
-    }
-
-    public String getAutomático() {
-        return this.automático;
-    }
-
-    public void setAutomático(String automático) {
-        this.automático = automático;
-    }
-
-    public String getManual() {
-        return this.manual;
-    }
-
-    public void setManual(String manual) {
-        this.manual = manual;
-    }
-
-    public String getCor() {
-        return this.cor;
-    }
-
-    public void setCor(String cor) {
+    public Carro(String marca, String eletrico, String motor,String cor, String automático, String manual) {
+        this.marca = marca;
+        this.eletrico = eletrico;
+        this.motor = motor;
         this.cor = cor;
+        this.automático = automático;
+        this.manual = manual;
+
     }
+
+
 }
+
