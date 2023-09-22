@@ -17,6 +17,14 @@ public abstract class Carro {
         this.manual = manual;
 
     }
+    public String toString() {
+        return "Marca: " + marca +
+                ", Elétrico: " + eletrico +
+                ", Motor: " + motor +
+                ", Cor: " + cor +
+                ", Automático: " + automático +
+                ", Manual: " + manual;
+    }
 
 
 }

@@ -21,7 +21,7 @@ public class ListaDeCarrosAPP {
 
     private static void listaCarros(List<Carro> carros) {
         for (Carro carro : carros) {
-            System.out.println(carro.imprimirInfo());
+            System.out.println(carro);
         }
     }
 }
